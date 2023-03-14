@@ -1,0 +1,1743 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+.header
+{
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    grid-template-rows: auto;
+    background-color:#343a40;
+}
+.logo
+{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.logo .logosp1
+{
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: none;
+}
+.logo .logosp2
+{
+    color: aliceblue;
+    font-size: 30px;
+    display: none;
+}
+.logo .logosp2 a 
+{
+    text-decoration: none;
+    color: white;
+}
+.header 
+{
+    position: sticky;
+    top: 0;
+    z-index: 3; 
+}
+.nav
+{
+    text-align: center;
+    line-height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+.nav .x 
+{
+    display: inline;
+    margin-right: 15px;
+}
+.nav a
+{
+    text-decoration: none;
+    color:white;
+}
+.nav li:hover a
+{
+    color: #e91f4f;
+}
+.nav .fasearch i 
+{
+    font-size: 30px;
+}
+.nav span i
+{
+   font-size:30px ;
+}
+.nav span
+{
+    height: 200px;
+    background: #ED2C41;
+    color: aliceblue;
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 140px;
+}
+.nav .fabar a:hover i 
+{
+    color: aliceblue;
+}
+.home .homechild 
+{
+    height: 305px;
+    width: 200px;
+    background:white;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    line-height: 43px;
+    display: none;
+    z-index: 2;
+}
+.home .homechild p 
+{
+    border-bottom: 1px solid gray;
+}
+.home:hover .homechild 
+{
+    display: block;
+}
+.company .companychild
+{
+    height: 182px;
+    width:140px;
+    background:white;
+    position: absolute;
+    top: 80px;
+    left: 130px;
+    line-height: 45px;
+    display: none;
+    z-index: 2;
+}
+.company .companychild p
+{
+    border-bottom: 1px solid gray;
+}
+.company:hover .companychild 
+{
+    display: block;
+}
+.services .servicechild
+{
+    height: 82px;
+    width: 135px;
+    background-color: white;
+    position: absolute;
+    top: 80px;
+    left: 250px;
+    line-height: 40px;
+    display: none;
+    z-index: 2;
+}
+.services .servicechild p 
+{
+    border-bottom: 1px solid gray;
+}
+.services:hover .servicechild 
+{
+ display: block;
+}
+.blog .blogchild
+{
+    height: 163px;
+    width: 140px;
+    background:white;
+    position: absolute;
+    top: 80px;
+    left: 450px;
+    line-height: 40px;
+    display: none;
+    z-index: 2;
+}
+.blog .blogchild p 
+{
+    border-bottom: 1px solid gray;   
+}
+.blog:hover .blogchild
+{
+    display: block;
+}
+
+
+
+/* header end ///////////////////////////////////*/ 
+
+
+.article
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 700px;
+    position: relative;
+    overflow: hidden;
+}
+.article .img2
+{
+    position: absolute;
+    top: 90px;
+    left: 0;
+    animation: img2 1s ;
+}
+@keyframes img2 
+{
+    from{top: 100%;}
+    to{top: 90px;}
+}
+.article .img3 
+{
+    position: absolute;
+    top: 120px;
+    left:350px;
+    animation: aniimg3 1s linear infinite;
+}
+@keyframes aniimg3
+{
+    from{transform: translateY(0px);}
+    to{transform: translateY(20px);}
+}
+.articlechild
+{
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    animation: articlechild 1s ;
+}
+@keyframes articlechild 
+{
+    from{top: 100%;left: 50%;}
+    to{top: 120px;left: 50%;}
+}
+.articlechild h1 
+{
+    font-size: 75px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 100px;
+}
+.articlechild .sp1 
+{
+    color: #e91f4f;
+}
+.articlechild p 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #bcc7cd;
+}
+.article .sp2
+{
+    
+    padding: 15px 35px;
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    font-size: 15px;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #e91f4f;
+    animation: sp2 1.50s ;
+}
+@keyframes sp2 
+{
+    from{top: 100%;left: 50%;}
+    to{top: 73%;left: 50%;}
+}
+.article .sp2 a 
+{
+    text-decoration: none;
+    color: white;
+}
+.article .sp2:hover 
+{
+    color:#e91f4f ;
+    background-color: white;
+}
+.article .sp2:hover a 
+{
+    color: #e91f4f;
+}
+.article .plybtn
+{
+    height: 60px;
+    width: 60px;
+    background: #e91f4f;
+    border-radius: 50%;
+    position: absolute;
+    top: 72%;
+    left: 68%;
+    font-size: 20px;
+    text-align: center;
+   line-height:60px ;
+   color: white;
+  z-index: 2;
+}
+.article .sp3 
+{
+    height: 60px;
+    width: 60px;
+    background: #e91f4f;
+    border-radius: 50%;
+    position: absolute;
+    top: 72%;
+    left: 68%;
+  animation: plybtn 1s linear infinite;
+}
+@keyframes plybtn
+{
+    from{transform: scale(1.0);opacity: 1;}
+    to{transform: scale(1.6);opacity: 0;}
+}
+.article .call 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#bcc7cd ;
+    position: absolute;
+    top: 72%;
+    left: 80%;
+    color: white;
+}
+.article .number 
+{
+    color:white;
+    font-size: 30px;
+    position: absolute;
+    top:77%;
+    left: 77%;
+}
+
+/* article end ///////////////////////////////// */
+
+.article2
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    background: #1b1d21;
+}
+
+.article2 .article2child1
+{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 4fr 2fr 2fr ;
+    grid-template-rows: 270px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.article2 .article2child1 .box1
+{
+    background: #1b1d21;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    padding: 5px;
+
+}
+.article2 .article2child1 .box1 h1
+{
+    margin-top: 20px;
+  font-size: 35px;
+  color: white;
+  line-height: 60px;
+}
+.article2 .article2child1 .box1 span
+{
+    color:#ED2C41 ;
+}
+.article2 .article2child1 .box1 p 
+{
+    color: white;
+}
+
+.article2 .article2child1 .box2
+{
+    background: #25272b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: relative;
+    overflow: hidden;
+  
+}
+.article2 .article2child1 .box2::after
+{
+    content: "";
+    height: 270px;
+    width: 273px;
+    background:#ED2C41;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 1;
+    transition: 0.50s;
+}
+.article2 .article2child1 .box2:hover::after
+{
+    top: 0;
+    opacity: 0;
+}
+.article2 .article2child1 .box2:hover i 
+{
+    color: white;
+}
+
+.article2 .article2child1 .box2 i
+{
+   font-size: 40px;
+   margin: 20px;
+   color: #ED2C41;
+}
+.article2 .article2child1 .box2 h2 
+{
+   margin-left: 10px;
+}
+.article2 .article2child1 .box2 p 
+{
+    margin: 20px 10px;
+    line-height: 30px;
+}
+.article2 .article2child1 .box3
+{
+    background: #2c2e34;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: relative;
+    overflow: hidden;
+  
+}
+
+.article2 .article2child1 .box3::after
+{
+    content: "";
+    height: 270px;
+    width: 273px;
+    background:#ED2C41;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 1;
+    transition: 0.50s;
+}
+.article2 .article2child1 .box3:hover::after
+{
+    top: 0;
+    opacity: 0;
+}
+.article2 .article2child1 .box3:hover i 
+{
+    color: white;
+}
+
+.article2 .article2child1 .box3 i
+{
+   font-size: 40px;
+   margin: 20px;
+   color: #ED2C41;
+}
+.article2 .article2child1 .box3 h2 
+{
+   margin-left: 10px;
+}
+.article2 .article2child1 .box3 p 
+{
+    margin: 20px 10px;
+    line-height: 30px;
+}
+
+
+.article2 .article2child2
+{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr ;
+    grid-template-rows: 270px;
+    /* background:yellow; */
+    margin-bottom: 120px ;
+    margin-left: 50px;
+}
+
+.article2 .article2child2 .box1
+{
+    background: #1b1d21;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: relative;
+    overflow: hidden;
+  
+}
+
+.article2 .article2child2 .box1 i
+{
+   font-size: 40px;
+   margin: 20px;
+   color:white;
+}
+.article2 .article2child2 .box1 h2 
+{
+   margin-left: 10px;
+}
+.article2 .article2child2 .box1 p 
+{
+    margin: 20px 10px;
+    line-height: 30px;
+}
+.article2 .article2child2 .box2
+{
+    background: #25272b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: relative;
+    overflow: hidden;
+  
+}
+.article2 .article2child2 .box2::after
+{
+    content: "";
+    height: 270px;
+    width: 273px;
+    background:#ED2C41;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 1;
+    transition: 0.50s;
+}
+.article2 .article2child2 .box2:hover::after
+{
+    top: 0;
+    opacity: 0;
+}
+.article2 .article2child2 .box2:hover i 
+{
+    color: white;
+}
+
+.article2 .article2child2 .box2 i
+{
+   font-size: 40px;
+   margin: 20px;
+   color: #ED2C41;
+}
+.article2 .article2child2 .box2 h2 
+{
+   margin-left: 10px;
+}
+.article2 .article2child2 .box2 p 
+{
+    margin: 20px 10px;
+    line-height: 30px;
+}
+.article2 .article2child2 .box3
+{
+    background: #2c2e34;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: relative;
+    overflow: hidden;
+  
+}
+.article2 .article2child2 .box3::after
+{
+    content: "";
+    height: 270px;
+    width: 273px;
+    background:#ED2C41;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 1;
+    transition: 0.50s;
+}
+.article2 .article2child2 .box3:hover::after
+{
+    top: 0;
+    opacity: 0;
+}
+.article2 .article2child2 .box3:hover i 
+{
+    color: white;
+}
+
+.article2 .article2child2 .box3 i
+{
+   font-size: 40px;
+   margin: 20px;
+   color: #ED2C41;
+}
+.article2 .article2child2 .box3 h2 
+{
+   margin-left: 10px;
+}
+.article2 .article2child2 .box3 p 
+{
+    margin: 20px 10px;
+    line-height: 30px;
+}
+.article2 .article2child2 .box4
+{
+    text-align: center;
+    line-height: 250px;
+    background-color: #25272b;
+}
+.article2 .article2child2 .box4 span
+{
+    padding: 20px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 20px;
+    background: #e91f4f;
+}
+.article2 .article2child2 .box4 span:hover
+{
+  background-color: cadetblue;
+}
+.article2 .article2child2 .box4 span a 
+{
+    text-decoration: none;
+    color: white;
+}
+
+/* article2 end//////////////////////////// */
+
+.aside
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 700px;
+    background-color:#1b1d21;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.aside img
+{
+    margin: 30px 30px;
+}
+.aside h1 
+{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    line-height: 65px;
+}
+.aside h1 span 
+{
+    color: #e91f4f;
+}
+.aside p 
+{
+   color: white;
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   line-height: 30px;
+}
+.aside .one 
+{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color: white;
+}
+.aside .sp1 
+{
+    height: 5px;
+    width: 450px;
+    background: #ED2C41;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+}
+.aside .sp2 
+{
+    height: 5px;
+    width: 100px;
+    background: #bcc7cd;
+    position: absolute;
+    top: 53%;
+    left: 87%;
+}
+.aside .sp3 
+{
+    color: white;
+    position: absolute;
+    top:50%;
+    left:87%;
+}
+.aside .two 
+{
+    color: white;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+}
+.aside .sp4 
+{
+    height: 5px;
+    width: 360px;
+    background: #ED2C41;
+    position: absolute;
+    top: 66%;
+    left: 50%;
+}
+.aside .sp5
+{
+    height: 5px;
+    width: 222px;
+    background: #bcc7cd;
+    position: absolute;
+    top: 66%;
+    left: 77%;
+}
+.aside .sp6 
+{
+    color: white;
+    position: absolute;
+    top:63%;
+    left:77%;
+}
+.aside .three 
+{
+    color: white;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+}
+.aside .sp7
+{
+    height: 5px;
+    width: 400px;
+    background: #ED2C41;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+}
+.aside .sp8
+{
+    height: 5px;
+    width: 155px;
+    background: #bcc7cd;
+    position: absolute;
+    top: 80%;
+    left: 82.50%;
+}
+.aside .sp9 
+{
+    color: white;
+    position: absolute;
+    top:77%;
+    left:82.50%;
+}
+.aside .sp10
+{
+    height: 70px;
+    width: 70px;
+    background: #e91f4f;
+    border-radius: 50%;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    z-index: 2;
+}
+.aside .sp10 a 
+{
+    text-decoration: none;
+    color: #bcc7cd;
+}
+.aside .sp11
+{
+    height: 70px;
+    width: 70px;
+    background: #e91f4f;
+    border-radius: 50%;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+   animation: plybtn2 1s linear infinite;
+}
+@keyframes plybtn2 
+{
+    from{transform: scale(1.0);opacity: 1;}
+    to{transform: scale(1.6);opacity: 0;}
+}
+.aside .sp12 
+{
+    border: 1px solid red;
+    position: absolute;
+    padding: 15px 30px;
+    top: 86%;
+    left: 60%;
+    background: #e91f4f;
+}
+.aside .sp12 a 
+{
+    text-decoration: none;
+    color: white;
+}
+
+/* aside end////////////////////// */
+
+.images
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px;
+    position: relative;
+}
+.images .one
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.images .two
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+.images .two span 
+{
+    color: #e91f4f;
+}
+.images .img1 
+{
+    position: absolute;
+    top: 80px;
+    left: 400px;
+}
+.images .img2
+{
+    position: absolute;
+    top: 80px;
+    left: 600px;
+}
+.images .img3
+{
+    position: absolute;
+    top: 80px;
+    left: 820px;
+}
+.images .img4
+{
+    position: absolute;
+    top: 80px;
+    left: 1000px;
+}
+.images .img5
+{
+    position: absolute;
+    top: 180px;
+    left: 400px;
+}
+.images .img6
+{
+    position: absolute;
+    top: 180px;
+    left: 600px;
+}
+.images .img7
+{
+    position: absolute;
+    top: 180px;
+    left: 820px;
+}
+.images .img8
+{
+    position: absolute;
+    top: 180px;
+    left: 1000px;
+}
+
+/* images end/////// */
+
+.content 
+{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    /* grid-template-rows: 270px; */
+    background-color: #1C1E22;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content img 
+{
+    border-radius: 15px;
+}
+.content .content1
+{
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.content .content1 p
+{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 100%;
+    left: 70px;
+   transition: 0.50s;
+   z-index: 2;
+}
+.content .content1 h1
+{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 100%;
+    left: 30px;
+    transition: 0.80s;
+    z-index: 2;
+}
+.content .content1:hover p 
+{
+    top: 100px;
+    left: 70px; 
+}
+.content .content1:hover h1 
+{
+    top: 130px;
+    left: 30px;
+}
+.content .content1::after
+{
+    content: "";
+    height: 270px;
+    width: 243px;
+    background-color: #e91f4f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    transition: 1s; 
+    opacity: 0;
+
+}
+.content .content1:hover::after 
+{
+   
+    opacity: 0.40;
+}
+
+.content .content2
+{
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.content .content2 p
+{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 100%;
+    left: 60px;
+   transition: 0.50s;
+   z-index: 2;
+}
+.content .content2 h1
+{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 100%;
+    left: 30px;
+    transition: 0.80s;
+    z-index: 2;
+}
+.content .content2:hover p 
+{
+    top: 100px;
+    left: 60px; 
+}
+.content .content2:hover h1 
+{
+    top: 130px;
+    left: 30px;
+}
+.content .content2::after
+{
+    content: "";
+    height: 270px;
+    width: 243px;
+    background-color: #e91f4f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    transition: 1s; 
+    opacity: 0;
+
+}
+.content .content2:hover::after 
+{
+   
+    opacity: 0.40;
+}
+.content .content3
+{
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.content .content3 p
+{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 100%;
+    left: 70px;
+   transition: 0.50s;
+   z-index: 2;
+}
+.content .content3 h1
+{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    transition: 0.80s;
+    z-index: 2;
+}
+.content .content3:hover p 
+{
+    top: 100px;
+    left: 70px; 
+}
+.content .content3:hover h1 
+{
+    top: 130px;
+    left: 20px;
+}
+.content .content3::after
+{
+    content: "";
+    height: 270px;
+    width: 243px;
+    background-color: #e91f4f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    transition: 1s; 
+    opacity: 0;
+
+}
+.content .content3:hover::after 
+{
+   
+    opacity: 0.40;
+}
+
+.content .content4
+{
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.content .content4 p
+{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 100%;
+    left: 60px;
+   transition: 0.50s;
+   z-index: 2;
+}
+.content .content4 h1
+{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 100%;
+    left: 30px;
+    transition: 0.80s;
+    z-index: 2;
+}
+.content .content4:hover p 
+{
+    top: 100px;
+    left: 60px; 
+}
+.content .content4:hover h1 
+{
+    top: 130px;
+    left: 30px;
+}
+.content .content4::after
+{
+    content: "";
+    height: 270px;
+    width: 243px;
+    background-color: #e91f4f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    transition: 1s; 
+    opacity: 0;
+
+}
+.content .content4:hover::after 
+{
+   
+    opacity: 0.40;
+}
+.content .content5
+{
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.content .content5 p
+{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 100%;
+    left: 80px;
+   transition: 0.50s;
+   z-index: 2;
+}
+.content .content5 h1
+{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 100%;
+    left: 60px;
+    transition: 0.80s;
+    z-index: 2;
+}
+.content .content5:hover p 
+{
+    top: 100px;
+    left: 80px; 
+}
+.content .content5:hover h1 
+{
+    top: 130px;
+    left: 60px;
+}
+.content .content5::after
+{
+    content: "";
+    height: 270px;
+    width: 243px;
+    background-color: #e91f4f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    transition: 1s; 
+    opacity: 0;
+
+}
+.content .content5:hover::after 
+{
+   
+    opacity: 0.40;
+}
+
+/* ////////////////// */
+
+.sometext
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1000px;
+     background-color: #1C1E22;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: white;
+     position: relative;
+}
+.sometext .hone
+{
+    font-size: 40px;
+    position: absolute;
+    top: 10%;
+    left: 70px;
+}
+.sometext .htwo
+{ 
+    font-size: 40px;
+    position: absolute;
+    top: 15%;
+    left: 70px;
+}
+.sometext .htwo span 
+{
+    color: #e91f4f;
+}
+.sometext .pone 
+{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    line-height: 30px;
+}
+.sometext .box1 
+{
+    height: 220px;
+    width: 250px;
+    background-color: #e91f4f;
+    position: absolute;
+    top: 30%;
+    left: 70px;
+}
+.sometext .box1 i 
+{
+    font-size: 50px;
+    margin: 20px;
+}
+.sometext .box1 h1 
+{
+    margin-left: 20px;
+}
+.sometext .box1 h3 
+{
+    margin: 10px 20px;
+}
+.sometext .box1:hover
+{
+    background-color: #2C2F34;
+}
+.sometext .box1:hover i 
+{
+    color: #e91f4f;
+}
+.sometext .box2
+{
+    height: 220px;
+    width: 250px;
+    background-color: #2C2F34;
+    position: absolute;
+    top: 30%;
+    left: 350px;
+}
+.sometext .box2 i 
+{
+    font-size: 50px;
+    margin: 20px;
+    color: #e91f4f;
+}
+.sometext .box2 h1 
+{
+    margin-left: 20px;
+}
+.sometext .box2 h3 
+{
+    margin: 10px 20px;
+}
+.sometext .box2:hover
+{
+    background-color: #e91f4f;
+}
+.sometext .box2:hover i 
+{
+    color: white;
+}
+.sometext .box3
+{
+    height: 220px;
+    width: 250px;
+    background-color: #2C2F34;
+    position: absolute;
+    top: 55%;
+    left: 70px;
+}
+.sometext .box3 i 
+{
+    font-size: 50px;
+    margin: 20px;
+    color: #e91f4f;
+}
+.sometext .box3 h1 
+{
+    margin-left: 20px;
+}
+.sometext .box3 h3 
+{
+    margin: 10px 20px;
+}
+.sometext .box3:hover
+{
+    background-color: #e91f4f;
+}
+.sometext .box3:hover i 
+{
+    color: white;
+}
+.sometext .box4 
+{
+    height: 220px;
+    width: 250px;
+    background-color: #e91f4f;
+    position: absolute;
+    top: 55%;
+    left: 350px;
+}
+.sometext .box4 i 
+{
+    font-size: 50px;
+    margin: 20px;
+}
+.sometext .box4 h1 
+{
+    margin-left: 20px;
+}
+.sometext .box4 h3 
+{
+    margin: 10px 20px;
+}
+.sometext .box4:hover
+{
+    background-color: #2C2F34;
+}
+.sometext .box4:hover i 
+{
+    color: #e91f4f;
+}
+.sometext img 
+{   
+    position: absolute;
+    top: 25%;
+    left: 55%;
+}
+
+/* sometext end/////////////// */
+
+.section
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 900px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: relative;
+}
+.section .hone
+{
+    font-size: 40px;
+    position: absolute;
+    top: 10%;
+    left: 70px;
+}
+.section .htwo
+{ 
+    font-size: 40px;
+    position: absolute;
+    top: 17%;
+    left: 70px;
+}
+.section .htwo span 
+{
+    color: #e91f4f;
+}
+.section .pone 
+{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    line-height: 30px;
+}
+.section .imgone 
+{
+    position: absolute;
+    top: 30%;
+    left: 70px;
+}
+.section  .detial 
+{
+    height: 300px;
+    width: 600px;
+    background-color: #1c1e22;
+    position: absolute;
+    top: 33%;
+    left: 45%;
+}
+.section  .detial i 
+{
+    color: #e91f4f;
+    font-size: 70px;
+    margin: 30px ;
+}
+.section  .detial p 
+{
+    margin-left: 120px;
+    margin-top: -90px;
+    font-size: 20px;
+}
+.section  .detial .img 
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: -50px 100px;
+}
+.section  .detial h3
+{
+    margin-left: 210px;
+    margin-top: 70px;
+}
+
+/* section end/////////////////////////// */
+
+.section2 
+{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr ;
+    grid-template-rows: 700px;
+    background-color: #1B1D21;
+    padding: 20px;
+    padding-top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+.section2 .text1 
+{
+    height: 450px;
+    margin: 20px;
+    color: white;
+}
+.section2 .text1 h1 
+{
+    margin-left: 20px;
+}
+.section2 .text1 h2
+{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.section2 .text1 h2 span 
+{
+    color: #e91f4f;
+}
+.section2 .text1 p 
+{
+  margin-left: 20px;
+  margin-top: 30px;
+  line-height: 25px;
+}
+.section2 .text1 button
+{
+    border: none;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: #e91f4f;
+    color: white;
+    padding: 20px 30px;
+}
+.section2 .text1 button a 
+{
+    text-decoration: none;
+    color: white;
+}
+.section2 .text2 
+{
+    height: 450px;
+    margin: 20px;
+    background-color:#2C2F34;
+    color: white;
+}
+
+.section2 .text2 .cal
+{
+   font-size: 20px;
+   color: #e91f4f;
+   margin: 20px;
+}
+.section2 .text2 h2 
+{
+    margin-left: 20px;
+}
+.section2 .text2 button 
+{
+    padding: 15px 25px;
+    background-color: #e91f4f;
+    border: none;
+    margin: 20px 20px;
+    position: relative;
+    z-index: 2;
+}
+.section2 .text2 button i 
+{
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+}
+.section2 .text2 button::after
+{
+    content: "";
+    height: 0;
+    width: 0;
+    background-color: #1B1D21;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    transition: 0.50s;
+    z-index: -1;
+}
+.section2 .text2 button:hover::after
+{   
+    height: 51px;
+    width: 68px;
+    top: 0;
+    right: 0;
+    left: 0px;
+    bottom: 0;
+}
+.section2 .text3
+{
+    height: 450px;
+    margin: 20px;
+    background-color:#2C2F34;
+    color: white;
+}
+.section2 .text3 .cal
+{
+   font-size: 20px;
+   color: #e91f4f;
+   margin: 20px;
+}
+.section2 .text3 h2 
+{
+    margin-left: 20px;
+}
+.section2 .text3 button 
+{
+    padding: 15px 25px;
+    background-color: #e91f4f;
+    border: none;
+    margin: 20px 20px;
+    position: relative;
+    z-index: 2;
+}
+.section2 .text3 button i 
+{
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+}
+.section2 .text3 button::after
+{
+    content: "";
+    height: 0;
+    width: 0;
+    background-color: #1B1D21;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    transition: 0.50s;
+    z-index: -1;
+}
+.section2 .text3 button:hover::after
+{   
+    height: 51px;
+    width: 68px;
+    top: 0;
+    right: 0;
+    left: 0px;
+    bottom: 0;
+}
+.section2 .emailbox
+{
+    height: 200px;
+    width: 90%;
+    background-color: #e91f4f;
+    color: white ;
+    position: absolute;
+    top: 87%;
+    left: 55px;
+    z-index: 2;
+}
+.section2 .emailbox h1 
+{
+    margin: 70px 40px;
+    position: relative;
+
+}
+.section2 .emailbox .input1
+{
+    height: 50px;
+    width: 300px;
+    outline: none;
+   position: absolute;
+   top: 40%;
+   left: 50%;
+}
+.section2 .emailbox .input2
+{
+    height: 50px;
+    width: 100px;
+    outline: none;
+   position: absolute;
+   top: 40%;
+   left: 77%;
+   color: white;
+   background-color: #1c1e22;
+}
+.section2 .emailbox p 
+{
+    position: absolute;
+    top: 120px;
+    left: 40px;
+}
+
+/* section2 end/////////////////////// */
+
+.footer
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 700px;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.footer .box1 
+{
+    height: 250px;
+    width: 350px;
+    background-color:transparent;
+    position: absolute;
+    top: 20%;
+    left: 30px;
+}
+.footer .box1 img 
+{   
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.footer .box1 p 
+{
+    margin-top: 30px;
+    line-height: 25px;
+}
+.footer .box1 i 
+{
+    font-size: 30px;
+    margin: 20px 10px;
+}
+.footer .box1 i:hover 
+{
+    color: #e91f4f;
+}
+.footer .box2 
+{
+    height: 250px;
+    width: 200px;
+    background-color:transparent;
+    position: absolute;
+    top: 20%;
+    left: 400px;
+    text-align: center;
+}
+.footer .box2 h2::first-letter
+{
+    color: #e91f4f;
+}
+.footer .box2 p 
+{
+    line-height: 40px;
+}
+.footer .box2 a
+{
+   text-decoration: none;
+   color: white;
+}
+.footer .box3 a
+{
+   text-decoration: none;
+   color: white;
+}
+.footer .box3 
+{
+    height: 250px;
+    width: 200px;
+    background-color:transparent;
+    position: absolute;
+    top: 20%;
+    left: 620px;
+    text-align: center;
+}
+.footer .box3 h2::first-letter
+{
+    color: #e91f4f;
+}
+.footer .box3 p 
+{
+    line-height: 40px;
+}
+.footer .box4
+{
+    height: 250px;
+    width: 300px;
+    background-color:transparent;
+    position: absolute;
+    top: 20%;
+    left: 850px;
+}
+.footer .box4 a 
+{
+    text-decoration: none;
+    color: white;
+}
+.footer .box4 h2 
+{
+    text-align: center;
+}
+.footer .box4 h2::first-letter
+{
+    color: #e91f4f;
+}
+.footer .box4 i 
+{
+    font-size: 25px;
+    color: #e91f4f;
+    margin: 12px;
+}
+.footer .line 
+{
+    height: 2px;
+    width: 90%;
+    background-color: #e91f4f;
+    position: absolute;
+    top: 80%;
+    left: 50px;
+
+}
+.footer .lastsp1 
+{
+    position: absolute;
+    top: 85%;
+    left: 100px;
+}
+.footer .lastsp2 
+{
+    position: absolute;
+    top: 85%;
+    left: 700px;
+}

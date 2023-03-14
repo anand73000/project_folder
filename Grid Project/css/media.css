@@ -1,0 +1,130 @@
+@media (max-width:500px)
+{
+    .header{grid-template-columns: 1fr;}
+    .header .logo{background:  #ED2C41;}
+    .header .logo img{display: none;}
+    .header .logo .logosp1{display: block;margin: -10px 0 0 -80px;}
+    .header .logo .logosp2{display: block;margin: -25px 0 10px 290px;}
+    .header .nav{display:none;}
+    /* /////// */
+    .article {grid-template-columns: 1fr;grid-template-rows: 500px;}
+    .article .img1 {object-fit: cover;}
+    .article .img2{display: none;}
+    .article .img3{top: 20px;left: 20px;height: 50x;width: 100px;}
+    .articlechild{top: 35%;left: 20px; animation: articlechild 1s ;}
+    @keyframes articlechild{from{top: 100%;left: 20px;}to{top: 35%;left: 20px;}}
+    .articlechild h1{font-size: 20px;line-height: 30px;}
+    .article .sp2{top: 67%;left: 20px;  animation: sp2 1.50s ;}
+    @keyframes sp2 {from{top: 100%;left: 20px;}to{top: 67%;left: 20px;}}
+    .article .plybtn{top: 66%; left: 58%;}
+    .article .sp3{top: 66%; left: 58%;}
+    .article .call{top: 80%;left: 30px;}
+    .article .number{top: 85%;left:20px;}
+    /* ////// */
+    .article2 .article2child1{grid-template-columns: 1fr;  width: 100%;margin: 0;}
+    .article2 .article2child2{grid-template-columns: 1fr;  width: 100%;margin: 0;}
+    .article2 .article2child1 .box2::after{width: 100%;}
+    .article2 .article2child1 .box3::after{width: 100%;}
+    .article2 .article2child2 .box2::after{width: 100%;}
+    .article2 .article2child2 .box2::after{width: 100%;}
+    .article2 .article2child2 .box3::after{width: 100%;}
+    /* /////////// */
+    .aside{grid-template-rows: 1150px;}
+    .aside img{margin: 0;width: 90%;}
+    .aside h1 { font-size: 20px;top: 500px;left: 20px;line-height: 30px;}
+    .aside p{top: 580px;left: 20px;}
+    .aside .one{top: 730px;left: 20px;}
+    .aside .sp1{top: 780px;left: 20px;width: 60%;}
+    .aside .sp2{top:780px;left: 282px;}
+    .aside .sp3 {top: 760px;left:282px ;}
+    .aside .two{top: 820px;left: 20px;}
+    .aside .sp4 {top: 880px;left: 20px;width: 50%;}
+    .aside .sp5{top: 880px;left:238px ;width: 145px;}
+    .aside .sp6 {top: 860px;left: 238px;}
+    .aside .three {top: 930px;left: 20px;}
+    .aside .sp7{top: 990px;left: 20px;width: 60%;}
+    .aside .sp8{top: 990px;left: 250px;width:135px ;}
+    .aside .sp9{top: 970px;left:250px ;}
+    .aside .sp10{top: 1030px;left: 30px;}
+    .aside .sp11{top: 1030px;left: 30px;}
+    .aside .sp12 {top: 1040px;left: 180px;}
+    /* ////////////////////// */
+    .images{grid-template-rows: 1000px;}
+    .images .one{top: 50px;left:100px;}
+    .images .two{top: 100px;left:130px;}
+    .images .img1 {top: 200px;left: 160px;}
+    .images .img2 {top: 300px;left: 160px;}
+    .images .img3 {top: 400px;left: 160px;}
+    .images .img4 {top: 500px;left: 160px;}
+    .images .img5 {top: 600px;left: 160px;}
+    .images .img6 {top: 700px;left: 160px;}
+    .images .img7 {top: 800px;left: 160px;}
+    .images .img8 {top: 900px;left: 160px;}
+    /* /////////////////////// */
+    .content{grid-template-columns: 1fr;}
+    .content img {height: 100%;width: 100%;}
+    .content .content1::after{height: 100%;width: 100%;}
+    .content .content1 p {top: 100%;left: 40%;}
+    .content .content1 h1 {top: 100%;left: 32%;}
+    .content .content1:hover p {top: 40%;left: 40%;}
+    .content .content1:hover h1 {top: 50%;left: 32%;}
+    .content .content2::after{height: 100%;width: 100%;}
+    .content .content2 p {top: 100%;left: 37%;}
+    .content .content2 h1 {top: 100%;left: 32%;}
+    .content .content2:hover p {top: 40%;left: 37%;}
+    .content .content2:hover h1 {top: 50%;left: 32%;}
+    .content .content3::after{height: 100%;width: 100%;}
+    .content .content3 p {top: 100%;left: 40%;}
+    .content .content3 h1 {top: 100%;left: 30%;}
+    .content .content3:hover p {top: 40%;left: 40%;}
+    .content .content3:hover h1 {top: 50%;left: 30%;}
+    .content .content4::after{height: 100%;width: 100%;}
+    .content .content4 p {top: 100%;left: 38%;}
+    .content .content4 h1 {top: 100%;left: 32%;}
+    .content .content4:hover p {top: 40%;left: 38%;}
+    .content .content4:hover h1 {top: 50%;left: 32%;}
+    .content .content5::after{height: 100%;width: 100%;}
+    .content .content5 p {top: 100%;left: 40%;}
+    .content .content5 h1 {top: 100%;left: 28%;}
+    .content .content5:hover p {top: 40%;left: 40%;}
+    .content .content5:hover h1 {top: 50%;left: 28%;}
+    /* ////////////////////// */
+    .sometext{grid-template-rows: 2000px;}
+    .sometext .hone{ font-size: 25px;left: 30px;top: 3%;}
+    .sometext .htwo{ font-size: 25px;left: 30px;top: 5%;}
+    .sometext .pone{top: 8%;left: 30px;}
+    .sometext .box1 {width: 90%;top: 15%;left: 30px;}
+    .sometext .box2{width: 90%;top: 27%;left: 30px;}
+    .sometext .box3{width: 90%;top: 39%;left: 30px;}
+    .sometext .box4{width: 90%;top: 51%;left: 30px;}
+    .sometext img {top: 66%;left: 20px;width: 95%;}
+    /* ////////////////////////////// */
+    .section{   grid-template-rows: 1100px;}
+    .section .hone{ font-size: 25px;left: 30px;top: 3%;}
+    .section .htwo{ font-size: 25px;left: 30px;top: 7%;}
+    .section .pone{top: 12%;left: 30px;}
+    .section .imgone{left: 10px;top: 24%;width: 95%;}
+    .section  .detial{left: 10px;top: 65%;width: 420px;width: 95%;}
+    .section  .detial i {font-size: 40px;}
+    .section  .detial p{font-size: 15px;margin-top: -65px;margin-left: 95px;}
+    .section  .detial .img {margin-left: 90px;margin-top: -65px;}
+    .section  .detial h3{ margin-left: 220px;  margin-top: 80px;}
+    /* ////////////////////////////// */
+    .section2 {grid-template-columns: 1fr;grid-template-rows: 800px;}
+    .section2 .text1 {display: none;}
+    .section2 .text3 {display: none;}
+    .section2 .emailbox{top: 75%;left: 25px;}
+    .section2 .emailbox h1{font-size: 20px;margin-top: 10px;margin-left: 20px;}
+    .section2 .emailbox p {top: 50px;left: 20px;}
+    .section2 .emailbox .input1{height: 34px;width: 200px;top: 100px;left: 20px;}
+    .section2 .emailbox .input2{height: 34px;width: 100px;top: 100px;left: 220px;}
+    /* ////////////////////////////// */
+    .footer{grid-template-rows: 1300px;}
+    .footer .box1 {top: 2%;left: 50px;text-align: center;}
+    .footer .box2 {top: 22%;left: 130px;text-align: center;}
+    .footer .box3 {top: 43%;left: 130px;}
+    .footer .box4 {top: 63%;left: 100px;}
+    .footer .line{top: 82%;left: 20px;}
+    .footer .lastsp1 {top: 86%;left: 30px;}
+    .footer .lastsp2 {top: 89%;left: 60px;}
+}

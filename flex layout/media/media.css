@@ -1,0 +1,53 @@
+@media(max-width:500px)
+{    
+	.heading {padding: 0 0 0 0 ;background-size:cover;}
+	.heading .head1{width: 100%;}
+	.heading .head1 li{display: none;}
+	.heading .head2 .p1{margin: 0;font-size: 25px}
+	.heading .head2 .searchbar{text-align: center;margin-left: 25px}
+	.heading .head2 .searchbar .searchbar1{width: 100%;margin-right: 10px}
+	.heading .head2 .searchbar .searchbar2{width: 100%}
+	.heading .head2 .searchbar .searchbar3{width: 100%}
+	.heading .head2 .searchbar .searchbar4{width: 100%}
+     
+     .heading .effect{margin: -27px;margin-top: 10px}
+	.heading .effect .effect1{width: 100%;}
+	.heading .effect .effect2{width: 100%;}
+	.heading .effect .effect3{width: 100%;}
+	.heading .effect .effect4{width: 100%;}
+	.heading .effect .effect5{width: 100%;}
+	.heading .effect .effect6{width: 100%;}
+    
+    .slider{margin: 1000px 0px 0 0;}
+    .slider .sldimg {width: 100%}
+	.slider .sldimg .img1{width: 60%;}
+  .slider .sldimg .img2{width: 60%;margin-top: 10px}
+  .slider .sldimg .img3{width: 60%;margin-top: 10px}
+  .slider .sldimg .img4{width: 60%;margin-top: 10px}
+
+  .images .images1 .upperimg .upperimg1,.upperimg2,.upperimg3,.upperimg4{width: 100%;margin-top: 10px}
+  .images .images1 .lowerimg .lowerimg1{width: 100%;margin-top: 750px}
+  .images .images1 .lowerimg .lowerimg2{width: 100%;margin-top: 10px}
+
+  .trending {margin-top: 1350px;}
+  .trending .content1 .contfinfo{width: 100%;margin-right: 10px}
+   .trending .content1 .contsinfo{width: 100%;margin-right: 10px}
+    .trending .content2{margin-top: 220px}
+   .trending .content2 .contfinfo{width: 100%;margin-right: 10px}
+   .trending .content2 .contsinfo{width: 100%;margin-right: 10px}
+	  .trending .content3{margin-top: 220px}
+	  .trending .content3 .contfinfo{width: 100%;margin-right: 10px}
+   .trending .content3 .contsinfo{width: 100%;margin-right: 10px}
+
+   .test{margin-top: 250px}
+   
+     .lastcon{margin-top: -100px;padding-right:50px }
+   .lastcon .con1,.con2,.con3{width: 100%}
+
+   .sfooter .news{width: 100%}
+   .sfooter .email{width: 100%;margin-top: -50px}
+   .sfooter .email input{width: 250px}
+
+   .footer .head .about,.footer .head .navigation,.footer .head .follow,.footer .head .search{width: 100%;border: none;text-align: left;margin: 10px 0 10px 0}
+   .footer .foot{margin: 20px 0 0 0}
+}
